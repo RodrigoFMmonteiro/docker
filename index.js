@@ -6,7 +6,7 @@ const app = express();
 // Configurações de conexão com o banco de dados PostgreSQL
 const pool = new Pool({
     user: 'postgres',
-    host: 'localhost',
+    host: '172.17.0.2',
     database: 'postgres',
     password: '01234',
     port: 5432,
